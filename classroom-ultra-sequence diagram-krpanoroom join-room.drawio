@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T06:48:12.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="w1oTc8NJQTo8vSV18viq" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T06:51:05.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iYr8iBbc7E2zIPQ7vzyn" version="20.8.20" type="github">
   <diagram id="Z87XCZslrCXwQrkr19RX" name="Page-1">
     <mxGraphModel dx="2261" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="-720" y="75" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-30" value="RoomModule/&lt;br&gt;KrpanoroomClient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-560.01" y="200" width="110.01" height="30" as="geometry" />
+          <mxGeometry x="-570.01" y="200" width="110.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-33" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-619.06" y="386.95" width="208.11" height="20" as="geometry" />
