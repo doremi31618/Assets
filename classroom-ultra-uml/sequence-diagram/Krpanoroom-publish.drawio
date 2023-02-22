@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T06:49:04.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="P_hFx-z1YrICQKaOUqVK" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T06:58:58.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="CrFAenhlxDjk-ZQnGCFl" version="20.8.21" type="github">
   <diagram id="Z87XCZslrCXwQrkr19RX" name="Page-1">
     <mxGraphModel dx="2261" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-12" value="Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-139.5" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S6yvC7qdEsfKQvKiLP5z-26" value="Krpanoroom&amp;nbsp; :&amp;nbsp;&lt;br&gt;publish" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="S6yvC7qdEsfKQvKiLP5z-26" value="Krpanoroom&amp;nbsp; :&amp;nbsp;&lt;br&gt;publish global" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-740" y="75" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-30" value="RoomModule/&lt;br&gt;RoomManagerClient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
