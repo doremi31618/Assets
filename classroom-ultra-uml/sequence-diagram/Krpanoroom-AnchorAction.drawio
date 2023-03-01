@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T06:38:05.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8xJ3K9MVWVZmy6ly-Ymr" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T06:40:58.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tXz5kFpRtf6OzU0_X94u" version="20.8.23" type="github">
   <diagram id="Z87XCZslrCXwQrkr19RX" name="Page-1">
     <mxGraphModel dx="2261" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-12" value="Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
           <mxGeometry x="799.1" y="109.9" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S6yvC7qdEsfKQvKiLP5z-26" value="Krpanoroom&amp;nbsp; :&amp;nbsp;&lt;br&gt;AnchorAction(同步環景)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
+        <mxCell id="S6yvC7qdEsfKQvKiLP5z-26" value="Krpanoroom&amp;nbsp; :&amp;nbsp;&lt;br&gt;AnchorAction(錨點同步)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
           <mxGeometry x="52.5" y="54.900000000000006" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S6yvC7qdEsfKQvKiLP5z-30" value="RoomModule/&lt;br&gt;KrpanoroomClient" style="rounded=0;whiteSpace=wrap;html=1;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
@@ -99,8 +99,8 @@
             <mxPoint x="550" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dILGxwlcteWHyGqmObZT-7" value="socket.emit(&#39;anchor-control&#39;,&amp;nbsp;&lt;br&gt;AnchorSyncAction.generateAddAction(&lt;br&gt;ownerId,&lt;br&gt;name,&lt;br&gt;sceneName,&lt;br&gt;ath,&lt;br&gt;atv))" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
-          <mxGeometry x="335" y="340" width="500" height="140" as="geometry" />
+        <mxCell id="dILGxwlcteWHyGqmObZT-7" value="socket.emit(&#39;anchor-control&#39;,&amp;nbsp;&lt;br&gt;AnchorActionData)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
+          <mxGeometry x="335" y="410" width="500" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dILGxwlcteWHyGqmObZT-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" source="dILGxwlcteWHyGqmObZT-7" target="dILGxwlcteWHyGqmObZT-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -109,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dILGxwlcteWHyGqmObZT-9" value="socket.emit(&#39;consume&#39;,{&lt;br&gt;channelName: &#39;global_anchor&#39;,&lt;br&gt;data: AnchorData})" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
-          <mxGeometry x="336" y="490" width="500" height="100" as="geometry" />
+          <mxGeometry x="336" y="500" width="500" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dILGxwlcteWHyGqmObZT-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" source="dILGxwlcteWHyGqmObZT-9" target="dILGxwlcteWHyGqmObZT-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -117,7 +117,7 @@
             <mxPoint x="550" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dILGxwlcteWHyGqmObZT-11" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sceneData.addAnchor(AnchorData)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
+        <mxCell id="dILGxwlcteWHyGqmObZT-11" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sceneData.anchorControl(ActionData)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
           <mxGeometry x="860" y="510" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dILGxwlcteWHyGqmObZT-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" source="dILGxwlcteWHyGqmObZT-11" target="dILGxwlcteWHyGqmObZT-11" edge="1">
@@ -133,7 +133,7 @@
         <mxCell id="dILGxwlcteWHyGqmObZT-13" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
           <mxGeometry x="522.52" y="642.53" width="24.95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dILGxwlcteWHyGqmObZT-15" value="addAnchor" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
+        <mxCell id="dILGxwlcteWHyGqmObZT-15" value="updateAnchor(AnchorData)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" vertex="1">
           <mxGeometry x="336" y="620" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dILGxwlcteWHyGqmObZT-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="0DKkQV_DlRvVZHHdh2dW-18" source="dILGxwlcteWHyGqmObZT-15" target="dILGxwlcteWHyGqmObZT-15" edge="1">
